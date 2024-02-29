@@ -21,8 +21,8 @@ verreg.addEventListener('click', clicar)
 var resreg = document.getElementById('resreg')
 
 function clicar() {
-    txtreg = txtreg.value
-    if (txtreg == 'Brasil') {
+    var regi = String(txtreg.value)
+    if (regi == 'Brasil') {
         resreg.innerHTML = `<p>Você é Brasileiro!</p>`
     } else {
         resreg.innerHTML = `<p>Você é Estrangeiro!</p>`
