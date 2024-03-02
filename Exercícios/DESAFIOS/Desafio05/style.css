@@ -70,7 +70,9 @@ select {
 }
 
 option {
+    display: block;
     font-size: 16px;
+    padding: 0px 5px;
 }
 
 input#num {
