@@ -20,3 +20,6 @@ console.log('=================================')
 
 let pos = num.indexOf(8)
 console.log(`${pos}`)
+
+let pose = num.indexOf(4)
+console.log(`${pose}`)
